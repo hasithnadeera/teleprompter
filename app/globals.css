@@ -4,21 +4,15 @@
 
 :root {
   --background: #000000;
-  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
-    --foreground: #ffffff;
+    --background: #000000;
   }
 }
 
-@media (prefers-color-scheme: dark) and (max-width: 767px) {
-  :root {
-    --foreground: #000000;
-  }
-}
+
 
 body {
   color: var(--foreground);
